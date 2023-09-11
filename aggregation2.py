@@ -36,6 +36,8 @@ return_specified_fields = {
         "gbp_balance": {"$divide": ["$balance", conversion_rate_usd_to_gbp]},
         "_id": 0,
     }
+
+
 }
 
 # Create an aggegation pipeline containing the four stages created above
